@@ -8,5 +8,6 @@ buttonBar.addEventListener('click', (e) => {
   }
   if (e.currentTarget.tagName == 'DIV') {
     console.log(`color ${curColor}`);
+    e.currentTarget.style.backgroundColor = curColor;
   }
 });
